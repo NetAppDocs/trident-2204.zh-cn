@@ -2853,7 +2853,6 @@
   <block id="6f0b081bef5e745ef2429ef74472d9bd" category="cell">v1.21.0</block>
   <block id="681d715b456f6d29a501b8f132e941a1" category="cell">v1.22.0</block>
   <block id="73e93ad328287e5ce4c06228cfdba2bf" category="cell">v1.23.0</block>
-  <block id="01d360dd9f635f6518aed5070edf488f" category="admonition">在Kubernetes 1.20及更高版本上、只有当`v1`版本提供了`volumesnapshots.snapshot.storage.k8s.io` CRD时、才使用经过验证的`K8s.gcr.io/SIG-storage/CsI-snapshotter：v4.x` image。如果 `v1bea1` 版本在使用 / 不使用 `v1` 版本的情况下为 CRD 提供服务，请使用经验证的 `K8s.gcr.io/SIG-storage/CsI-snapshotter ： v3.x` 映像。</block>
   <block id="732d0805e41f2db48aa120c357324ee4" category="summary">您可以使用 Trident 运算符或使用 `tridentctl` 来部署 Astra Trident 。</block>
   <block id="42f8643eb52a942747937327c72c8361" category="doc">部署概述</block>
   <block id="deef9d6bf4083f81d7bd15ae0c9121b6" category="admonition">从 22.04 版开始，每次安装 Astra Trident 时， AES 密钥将不再重新生成。在此版本中， Astra Trident 将安装一个新的机密对象，该对象会在安装之间持续存在。这意味着， 22.04 中的 `tridentctl` 可以卸载先前版本的 Trident ，但早期版本无法卸载 22.04 安装。</block>
@@ -3168,4 +3167,5 @@
   <block id="c949166d6970748c0094c800daa3324a" category="sidebar">管理 Astra Trident</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="sidebar">下一步是什么？</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
+  <block id="12ff25435e42ce4eb51634e6d4a5e06c" category="admonition">在Kubernetes 1.20及更高版本上、只有当`v1`版本提供了`volumesnapshots.snapshot.storage.k8s.io` CRD时、才使用经过验证的`K8s.gcr.io/SIG-storage/CsI-snapshotter：v5.x` image。如果 `v1bea1` 版本在使用 / 不使用 `v1` 版本的情况下为 CRD 提供服务，请使用经验证的 `K8s.gcr.io/SIG-storage/CsI-snapshotter ： v3.x` 映像。</block>
 </blocks>
