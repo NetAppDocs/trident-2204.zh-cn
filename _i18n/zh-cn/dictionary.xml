@@ -1822,7 +1822,6 @@
   <block id="8b4e612e7ec021b91bdf46a69c393a75" category="paragraph">这只是擦除虚拟存储池及其标签的强大功能表面。</block>
   <block id="4cfa22b281cbd36e1a275d61ec23a9b4" category="summary">您可以收集日志以帮助进行故障排除。收集日志的方法因运行 Docker 插件的方式而异。</block>
   <block id="fe1786b49549e8e06a89b9c57d7fc514" category="doc">收集日志</block>
-  <block id="d24bae93d00d821b3a8e7ee57c3bd468" category="section-title">收集日志以进行故障排除</block>
   <block id="83f4d02d2dd31f09291e098bf4ae502b" category="list-text">如果您使用建议的受管插件方法（例如，使用 `docker plugin` 命令）运行 Astra Trident ，请按如下所示查看它们：</block>
   <block id="17c40798131b12188d43b1a90dabfc69" category="paragraph">标准日志记录级别应允许您诊断大多数问题。如果您发现这还不够，则可以启用调试日志记录。</block>
   <block id="c28722abec5c1daefa02916119bbff91" category="list-text">要启用调试日志记录，请安装启用了调试日志记录的插件：</block>
@@ -3168,4 +3167,5 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="sidebar">下一步是什么？</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="12ff25435e42ce4eb51634e6d4a5e06c" category="admonition">在Kubernetes 1.20及更高版本上、只有当`v1`版本提供了`volumesnapshots.snapshot.storage.k8s.io` CRD时、才使用经过验证的`K8s.gcr.io/SIG-storage/CsI-snapshotter：v5.x` image。如果 `v1bea1` 版本在使用 / 不使用 `v1` 版本的情况下为 CRD 提供服务，请使用经验证的 `K8s.gcr.io/SIG-storage/CsI-snapshotter ： v3.x` 映像。</block>
+  <block id="756909f99bc1a720d318a5f5b94eb094" category="section-title">收集日志以进行故障排除</block>
 </blocks>
