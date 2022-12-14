@@ -90,7 +90,7 @@ WARNING: 我们强烈建议使用`vsadmin` user而非`fsxadmin`来配置后端�
 
 == 使用适用于 NetApp ONTAP 的 Amazon FSX 在 EKS 上部署和配置 Astra Trident
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 已安装 `kubectl` 的现有 Amazon EKS 集群或自管理 Kubernetes 集群。
 * 可从集群的工作节点访问的适用于 NetApp ONTAP 文件系统和 Storage Virtual Machine （ SVM ）的现有 Amazon FSX 。
 * 为准备工作的工作节点 link:worker-node-prep.html["NFS 和 / 或 iSCSI"^]。
