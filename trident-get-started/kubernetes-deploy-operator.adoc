@@ -14,7 +14,7 @@ summary: 您可以使用 Trident 操作员部署 Astra Trident 。您可以手�
 您可以使用Trident操作员部署Astra Trident。您可以通过以下两种方式之一部署Trident操作员：
 
 * 使用Trident link:https://artifacthub.io/packages/helm/netapp-trident/trident-operator["Helm图表"^]：Helm图表将部署Trident操作符并分步安装Trident。
-* 手动：Trident提供 link:https://github.com/NetApp/trident/blob/master/deploy/bundle.yaml["bundle.yaml"^] 可用于安装操作员和创建关联对象的文件。
+* 手动：Trident提供 link:https://github.com/NetApp/trident/blob/stable/v22.04/deploy/bundle.yaml["bundle.yaml"^] 可用于安装操作员和创建关联对象的文件。
 
 
 
